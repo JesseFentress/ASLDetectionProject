@@ -18,8 +18,15 @@ or
 ```bash
 pip3 install -r requirements.txt
 ```
-
-2. Run the following command from the project directory
+2. Tun the following two commands from the project directory
+to migrate the session data table
+'''bash
+python manage.py makemigrations
+'''
+'''bash
+python manage.py migrate
+'''
+3. Run the following command from the project directory
 to host the project locally
 
 **For Windows:**
@@ -33,7 +40,7 @@ py manage.py runserver
 python manage.py runserver
 ```
 
-3. Follow the link in the command prompt to open locally hosted website
+4. Follow the link in the command prompt to open locally hosted website
 the default is 
 
 ```sh
