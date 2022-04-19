@@ -20,12 +20,12 @@ pip3 install -r requirements.txt
 ```
 2. Tun the following two commands from the project directory
 to migrate the session data table
-'''bash
+```bash
 python manage.py makemigrations
-'''
-'''bash
+```
+```bash
 python manage.py migrate
-'''
+```
 3. Run the following command from the project directory
 to host the project locally
 
