@@ -16,6 +16,7 @@ from pathlib import Path
 ALLOWED_HOSTS = [
     'app-asl-detection.herokuapp.com',
     '127.0.0.1',
+    '0.0.0.0:5000'
 ]
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
