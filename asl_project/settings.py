@@ -13,12 +13,6 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import os
 from pathlib import Path
 
-ALLOWED_HOSTS = [
-    'app-asl-detection.herokuapp.com',
-    '127.0.0.1',
-    '0.0.0.0:5000'
-]
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -32,7 +26,7 @@ SECRET_KEY = 'django-insecure-m@a*4ctr^8f((q+^%urw@wqqux603-b_18%t78on6&x6@ru!9b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
