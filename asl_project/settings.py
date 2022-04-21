@@ -127,6 +127,10 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'aslAPP/static/')
 
+STATIC_DIRS = [
+    os.path.join(BASE_DIR, 'aslAPP/static')
+]
+
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
